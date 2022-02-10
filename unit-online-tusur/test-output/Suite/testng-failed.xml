@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="firstname" value="piter"/>
+    <parameter name="age" value="30"/>
+    <parameter name="lastname" value="pen"/>
+    <classes>
+      <class name="online_tusur.unit_online_tusur.NewTestNGParam">
+        <methods>
+          <include name="testAverAge" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- online_tusur.unit_online_tusur.NewTestNGParam -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
